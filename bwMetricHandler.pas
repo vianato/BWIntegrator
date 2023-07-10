@@ -136,7 +136,7 @@ begin
           '"clientid:' + clientId + '", ' +
           '"hostname:' + hostName + '", ' +
           '"os:' + os + '", ' +
-          '"service:' + appName + '"' +
+          '"service:' + appName + '", ' +
           '"metodo:' + parte + '"' +
           '' + tags + // acrescenta mais tags pelo arquivo .ini
         '], ' +
@@ -198,7 +198,8 @@ begin
           '"clientid:' + clientId + '", ' +
           '"hostname:' + hostName + '", ' +
           '"os:' + os + '", ' +
-          '"service:' + appName + '"' +
+          '"service:' + appName + '", ' +
+          '"metodo:' + parte + '"' +
           '' + tags + // acrescenta mais tags pelo arquivo .ini
         '], ' +
         '"type": 1, ' +
